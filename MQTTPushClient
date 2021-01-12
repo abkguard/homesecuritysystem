@@ -1,0 +1,21 @@
+# GettingStarted
+
+Before start, a token will be given to customer and will be addressed as 'YourHomeName'.
+Then, 
+1.	Download App MQTT Pus Client
+2.	Creat Server use HOST 140.118.152.64
+3.	Creat Topic for notification
+    >> Topic set: YourHomeName/guard
+4.	Set alerm messenger
+    >> Name:For free
+    >> Topic(sub): YourHomeName/guard
+5.	Set alerm control
+    >> Name:For free
+    >> On state value:1
+    >> Off state value:0
+    >> Topic(sub): YourHomeName/stastus/set
+    >> Topic(pub): YourHomeName/stastus/set
+6.	Test it
+    >> Turn your alerm control
+    >> Open the door or vibrate window
+    >> See the notification
