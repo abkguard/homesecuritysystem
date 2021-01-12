@@ -17,7 +17,7 @@ What are needed:
 4. MQTT Push Client on smartphone
 
 # Test
-1. String all the component appropriate with the ABKGuardcircuit.jpg 
+1. String all the component
 2. Setup the MQTT Broker 
 3. Setup the MQTT Push Client appropriate with the video tutorial on video folder
 4. Run the AIOT.ino on Arduino and upload it to the Arduino WeMos D1 board via USB cable
